@@ -1,0 +1,4 @@
+{
+  "extends": "@enoque/ts-config/react.json",
+  "include": ["src"]
+}
