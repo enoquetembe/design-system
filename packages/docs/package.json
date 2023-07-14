@@ -1,0 +1,34 @@
+{
+  "name": "@enoque/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.27",
+    "@storybook/addon-interactions": "^7.0.27",
+    "@storybook/addon-links": "^7.0.27",
+    "@storybook/blocks": "^7.0.27",
+    "@storybook/react": "^7.0.27",
+    "@storybook/react-vite": "^7.0.27",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@vitejs/plugin-react": "^4.0.3",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.0.27",
+    "vite": "^4.4.3"
+  },
+
+  "dependencies": {
+    "@enoque/react": "*",
+    "@enoque/tokens": "*",
+    "@enoque/eslint-config": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
