@@ -1,9 +1,18 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Button } from '@enoque/react'
+import { Button, ButtonPros } from '@enoque/react'
 
 export default {
-  title: 'Button',
+  title: 'Form/Button',
   component: Button,
-} as Meta
+  args: {
+    children: 'Send',
+  },
+} as Meta<ButtonPros>
 
-export const Primary: StoryObj = {}
+export const Primary: StoryObj<ButtonPros> = {}
+
+export const Big: StoryObj<ButtonPros> = {
+  args: {
+    size: 'big',
+  },
+}
