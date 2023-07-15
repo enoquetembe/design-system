@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, BoxProps } from '@enoque/react'
+import { Box, BoxProps, Text } from '@enoque/react'
 
 export default {
   title: 'Surfaces/Box',
@@ -7,7 +7,7 @@ export default {
   args: {
     children: (
       <>
-        <p>Box Element</p>
+        <Text>Box Element</Text>
       </>
     ),
   },
