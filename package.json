@@ -3,7 +3,6 @@
   "workspaces": [
     "packages/*"
   ],
-
   "scripts": {
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
@@ -11,7 +10,6 @@
     "version-packages": "changeset version",
     "release": "turbo run build --filter=!docs && changeset publish"
   },
-
   "dependencies": {
     "polished": "^4.2.2"
   },

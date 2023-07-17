@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Text, TextProps } from '@enoque/react'
 
 export default {
-  title: 'Typography/Tex',
+  title: 'Typography/Text',
   component: Text,
   args: {
     children:
