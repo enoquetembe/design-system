@@ -16,4 +16,12 @@ export const CustomTag: StoryObj<HeadingProps> = {
     children: 'Heading 1',
     as: 'h1',
   },
+
+  parameters: {
+    docs: {
+      description: {
+        story: 'Por',
+      },
+    },
+  },
 }
