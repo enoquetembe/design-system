@@ -4,6 +4,7 @@ import { Avatar, AvatarProps } from '@enoque/react'
 export default {
   title: 'Data display/Avatar',
   component: Avatar,
+  tags: ['autodocs'],
   args: {
     src: 'https://github.com/enoquetembe.png',
     alt: 'Enoque Tembe',

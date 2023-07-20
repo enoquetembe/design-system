@@ -4,6 +4,7 @@ import { ArrowRight } from 'phosphor-react'
 
 export default {
   title: 'Form/Button',
+  tags: ['autodocs'],
   component: Button,
   args: {
     children: 'Send',

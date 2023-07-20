@@ -3,6 +3,7 @@ import { Heading, HeadingProps } from '@enoque/react'
 
 export default {
   title: 'Typography/Heading',
+  tags: ['autodocs'],
   component: Heading,
   args: {
     children: 'Custom Title',

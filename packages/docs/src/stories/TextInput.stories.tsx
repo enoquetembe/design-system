@@ -3,6 +3,7 @@ import { TextInput, TextInputProps } from '@enoque/react'
 
 export default {
   title: 'Form/Text Input',
+  tags: ['autodocs'],
   component: TextInput,
   args: {},
 } as Meta<TextInputProps>

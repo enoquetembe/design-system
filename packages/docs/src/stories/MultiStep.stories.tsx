@@ -3,6 +3,7 @@ import { Box, MultiStep, MultiStepProps } from '@enoque/react'
 
 export default {
   title: 'Form/Multi Step',
+  tags: ['autodocs'],
   component: MultiStep,
   args: {
     size: 4,

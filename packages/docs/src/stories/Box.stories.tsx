@@ -3,6 +3,7 @@ import { Box, BoxProps, Text } from '@enoque/react'
 
 export default {
   title: 'Surfaces/Box',
+  tags: ['autodocs'],
   component: Box,
   args: {
     children: (

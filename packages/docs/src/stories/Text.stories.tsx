@@ -3,6 +3,7 @@ import { Text, TextProps } from '@enoque/react'
 
 export default {
   title: 'Typography/Text',
+  tags: ['autodocs'],
   component: Text,
   args: {
     children:

@@ -3,6 +3,7 @@ import { Checkbox, CheckboxProps } from '@enoque/react'
 
 export default {
   title: 'Form/Checkbox',
+  tags: ['autodocs'],
   component: Checkbox,
   args: {},
 } as Meta<CheckboxProps>

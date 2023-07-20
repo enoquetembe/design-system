@@ -3,6 +3,7 @@ import { TextArea, TextAreaProps } from '@enoque/react'
 
 export default {
   title: 'Form/Text Area',
+  tags: ['autodocs'],
   component: TextArea,
   args: {},
 } as Meta<TextAreaProps>
