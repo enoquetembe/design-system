@@ -9,6 +9,15 @@ export default {
 } as Meta<TextInputProps>
 
 export const Primary: StoryObj<TextInputProps> = {
+  argTypes: {
+    size: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
+  
   args: {
     placeholder: 'Type your name',
   },
