@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, MultiStep, MultiStepProps } from '@enoque/react'
+import { Box, MultiStep, MultiStepProps } from '@enoque-ui/react'
 
 export default {
   title: 'Form/Multi Step',

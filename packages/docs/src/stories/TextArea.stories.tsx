@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { TextArea, TextAreaProps } from '@enoque/react'
+import { TextArea, TextAreaProps } from '@enoque-ui/react'
 
 export default {
   title: 'Form/Text Area',

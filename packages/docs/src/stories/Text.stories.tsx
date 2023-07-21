@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Text, TextProps } from '@enoque/react'
+import { Text, TextProps } from '@enoque-ui/react'
 
 export default {
   title: 'Typography/Text',

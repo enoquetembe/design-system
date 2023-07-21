@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Heading, HeadingProps } from '@enoque/react'
+import { Heading, HeadingProps } from '@enoque-ui/react'
 
 export default {
   title: 'Typography/Heading',

@@ -1,5 +1,5 @@
 {
-  "name": "@enoque/tokens",
+  "name": "@enoque-ui/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@enoque/ts-config": "*",
-    "@enoque/eslint-config": "*",
+    "@enoque-ui/ts-config": "*",
+    "@enoque-ui/eslint-config": "*",
     "tsup": "^7.1.0",
     "typescript": "^5.1.6"
   }

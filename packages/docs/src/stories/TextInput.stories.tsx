@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { TextInput, TextInputProps } from '@enoque/react'
+import { TextInput, TextInputProps } from '@enoque-ui/react'
 
 export default {
   title: 'Form/Text Input',

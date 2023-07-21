@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Checkbox, CheckboxProps } from '@enoque/react'
+import { Checkbox, CheckboxProps } from '@enoque-ui/react'
 
 export default {
   title: 'Form/Checkbox',

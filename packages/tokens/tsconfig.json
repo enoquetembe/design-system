@@ -1,4 +1,4 @@
 {
-  "extends": "@enoque/ts-config/base.json",
+  "extends": "@enoque-ui/ts-config/base.json",
   "include": ["src"]
 }

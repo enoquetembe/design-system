@@ -1,4 +1,4 @@
-import { colors } from '@enoque/tokens'
+import { colors } from '@enoque-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

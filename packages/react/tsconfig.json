@@ -1,4 +1,4 @@
 {
-  "extends": "@enoque/ts-config/react.json",
+  "extends": "@enoque-ui/ts-config/react.json",
   "include": ["src"]
 }

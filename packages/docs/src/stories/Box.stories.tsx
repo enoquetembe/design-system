@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, BoxProps, Text } from '@enoque/react'
+import { Box, BoxProps, Text } from '@enoque-ui/react'
 
 export default {
   title: 'Surfaces/Box',
