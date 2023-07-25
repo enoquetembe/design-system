@@ -9,7 +9,7 @@ export const Button = styled('button', {
   },
 
   '&:focus': {
-    boxShadow: '0 0 0 2px $colors$gray100',
+    boxShadow: '0 0 0 2px $gray100',
   },
 
   display: 'flex',
@@ -34,24 +34,30 @@ export const Button = styled('button', {
   variants: {
     variant: {
       primary: {
-        backgroundColor: '$green500',
+        // backgroundColor: '$green500',
+        backgroundColor: '$blue900',
         color: '$white',
-
+        
         '&:not(disabled):hover': {
-          backgroundColor: '$green300',
+          //backgroundColor: '$green300',
+          backgroundColor: '$blue500',
         },
 
         '&:disabled:hover': {
-          backgroundColor: '$gray200',
+          //backgroundColor: '$gray200',
+          backgroundColor: '$blue500',
         },
       },
 
       secondary: {
-        color: '$green300',
-        border: '2px solid $green500',
+        //color: '$green300',
+        color: '$blue500',
+        //border: '2px solid $green500',
+        border: '2px solid $blue500',
 
         '&:not(disabled):hover': {
-          backgroundColor: '$green500',
+           // backgroundColor: '$green500',
+          backgroundColor: '$blue900',
           color: '$white',
         },
 
