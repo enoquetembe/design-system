@@ -4,8 +4,28 @@ import { radii } from '@enoque-ui/tokens'
 
 <Meta title="Tokens/Radii" />
 
-# Radii
+# Enoque UI Design System - Border Radii
 
-The radii used on Enoque UI
+Border radii define the curvature of corners in elements, adding a touch of visual softness to our user interface. The Enoque UI Design System offers a range of border radii that provide flexibility in designing various components. Below, you can find the border radii used in Enoque UI.
 
-<TokensGrid  tokens={radii} />
+## Border Radius Tokens
+
+Here are the border radius tokens available in Enoque UI:
+
+<TokensGrid tokens={radii} />
+
+## How to Use
+
+To apply these border radii to your project, import the border radius tokens from the Enoque UI package and use them in your styles or components:
+
+```jsx
+import { radii } from 'enoque-ui';
+
+const styles = {
+  button: {
+    borderRadius: radii.small,
+  },
+  card: {
+    borderRadius: radii.md,
+  },
+};

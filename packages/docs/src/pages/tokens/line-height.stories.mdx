@@ -4,8 +4,28 @@ import { lineHeights } from '@enoque-ui/tokens'
 
 <Meta title="Tokens/Line Heights" />
 
-# Line Heights
+# Enoque UI Design System - Line Heights
 
-The line heights used on Enoque UI
+Line heights are a crucial aspect of the Enoque UI Design System as they determine the vertical spacing between lines of text. Proper line heights contribute to a comfortable reading experience and overall visual harmony in our applications. Below, you can find the line heights used in Enoque UI.
 
-<TokensGrid  tokens={lineHeights} />
+## Line Height Tokens
+
+Here are the line height tokens available in Enoque UI:
+
+<TokensGrid tokens={lineHeights} />
+
+## How to Use
+
+To apply these line heights to your project, import the line height tokens from the Enoque UI package and use them in your styles or components:
+
+```jsx
+import { lineHeights } from 'enoque-ui';
+
+const styles = {
+  paragraph: {
+    lineHeight: lineHeights.base,
+  },
+  heading: {
+    lineHeight: lineHeights.short,
+  },
+};

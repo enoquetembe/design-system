@@ -23,11 +23,11 @@ export const Primary: StoryObj<TextInputProps> = {
   },
 }
 
-export const WithPrefix: StoryObj<TextInputProps> = {
-  args: {
-    prefix: 'enoque.com/',
-  },
-}
+// export const WithPrefix: StoryObj<TextInputProps> = {
+//   args: {
+//     prefix: 'enoque.com/',
+//   },
+// }
 
 export const Disabled: StoryObj<TextInputProps> = {
   args: {

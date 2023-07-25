@@ -4,8 +4,26 @@ import { fontSizes } from '@enoque-ui/tokens'
 
 <Meta title="Tokens/Font Sizes" />
 
-# Font Sizes
+# Enoque UI Design System - Font Sizes
 
-The font sizes used on Enoque UI
+The font sizes are a critical aspect of the Enoque UI Design System. They play a significant role in creating a consistent and visually appealing typographic hierarchy across your applications. Below, you can find the font sizes used in Enoque UI, along with their corresponding pixel and rem values for convenient usage.
 
-<TokensGrid  tokens={fontSizes} hasRemValue/>
+## Font Size Tokens
+
+Here are the font size tokens available in Enoque UI:
+
+<TokensGrid tokens={fontSizes} hasRemValue/>
+
+## How to Use
+
+To apply these font sizes to your project, import the font size tokens from the 
+Enoque UI package and use them in your styles or components:
+
+```jsx
+import { fontSizes } from 'enoque-ui/tokens';
+
+const styles = {
+paragraph: {
+    fontSize: fontSizes.xl,
+  },
+};

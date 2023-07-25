@@ -4,8 +4,25 @@ import { fonts } from '@enoque-ui/tokens'
 
 <Meta title="Tokens/Font Families" />
 
-# Font Families
+# Enoque UI Design System - Font Families
 
-The font familes used on Enoque UI
+Font families are a vital component of the Enoque UI Design System as they define the visual style of our text elements. Each font family contributes to the overall personality and tone of our applications. Below, you can find the font families used in Enoque UI.
 
-<TokensGrid  tokens={fonts} />
+## Font Family Tokens
+
+Here are the font family tokens available in Enoque UI:
+
+<TokensGrid tokens={fonts} />
+
+## How to Use
+
+To apply these font families to your project, import the font family tokens from the Enoque UI package and use them in your styles or components:
+
+```jsx
+import { fonts } from 'enoque-ui/tokens';
+
+const styles = {
+  title: {
+    fontFamily: fonts.default,
+  },
+};

@@ -2,6 +2,63 @@ import { Meta } from '@storybook/addon-docs'
 
 <Meta title="Home" />
 
-# Enoque UI
+# Enoque UI Design System
 
-Enoque's Design System 
+Welcome to Enoque UI, my personal Design System that provides a set of reusable components and guidelines to create consistent and beautiful user interfaces.
+
+## Introduction
+
+Enoque UI is a collection of components, styles, and best practices that I've put together to help me build delightful user experiences across all my projects. By using Enoque UI, I ensure that my design choices and visual language remain consistent throughout the applications I develop.
+
+## Goals
+
+This Design System aims to achieve the following goals:
+
+1. **Consistency:** Provide a consistent visual language and user experience across all my projects.
+
+2. **Efficiency:** Speed up the design and development process by reusing components and styles.
+
+3. **Scalability:** Enable easy scalability and maintenance as my projects grow.
+
+4. **Accessibility:** Ensure that my products are inclusive and accessible to all users.
+
+## Getting Started
+
+In this Storybook, you will find a comprehensive collection of components, styles, and guidelines for creating UIs. Each component is documented with examples and properties to help you integrate them seamlessly into your projects. To get started with Enoque UI, follow these steps:
+
+1. Install Enoque UI package via npm or yarn:
+   ```bash
+   npm install enoque-ui
+   # or
+   yarn add enoque-ui ```
+
+
+2. Import the required components in your project:
+
+```jsx
+  import { Button, Box, TextInput } from 'enoque-ui/react';
+```
+
+3. Use the components in your React application:
+
+```jsx
+  function MyComponent() {
+  return (
+    <Box>
+      <TextInput placeholder="Enter your name" />
+      <Button
+        onClick={() => {}}
+        size="md"
+        variant="primary"
+      >
+        Send
+      </Button>
+    </Box>
+  );
+};
+```
+
+# Contribution
+All contributions to improve Enoque UI and make it even better are welcome. If you have ideas, bug reports, or want to contribute code, please check out my GitHub repository <a href="https://github.com/enoquetembe/design-system.git">enoquetembe/design-system</a>.
+
+Let's build amazing user experiences together with Enoque UI!

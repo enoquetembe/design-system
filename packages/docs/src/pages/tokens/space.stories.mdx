@@ -4,8 +4,28 @@ import { space } from '@enoque-ui/tokens'
 
 <Meta title="Tokens/Space" />
 
-# Space
+# Enoque UI Design System - Space
 
-The spaces used on Enoque UI
+Space, also known as spacing or padding, defines the distances between elements in our user interface. Proper spacing is essential for creating a visually balanced and comfortable layout. Below, you can find the space values used in Enoque UI.
 
-<TokensGrid  tokens={space} hasRemValue/>
+## Space Tokens
+
+Here are the space tokens available in Enoque UI:
+
+<TokensGrid tokens={space} hasRemValue/>
+
+## How to Use
+
+To apply these space values to your project, import the space tokens from the Enoque UI package and use them in your styles or components:
+
+```jsx
+import { space } from 'enoque-ui/tokens';
+
+const styles = {
+  container: {
+    padding: space.$12,
+  },
+  button: {
+    margin: space.$10,
+   },
+};

@@ -4,8 +4,28 @@ import { fontWeights } from '@enoque-ui/tokens'
 
 <Meta title="Tokens/Font Weights" />
 
-# Space
+# Enoque UI Design System - Font Weights
 
-The Font Weights used on Enoque UI
+Font weights play a crucial role in defining the visual hierarchy and emphasizing content in our applications. The Enoque UI Design System offers a range of font weights to ensure a well-balanced and readable typographic experience. Below, you can find the font weights used in Enoque UI.
 
-<TokensGrid  tokens={fontWeights} />
+## Font Weight Tokens
+
+Here are the font weight tokens available in Enoque UI:
+
+<TokensGrid tokens={fontWeights} />
+
+## How to Use
+
+To apply these font weights to your project, import the font weight tokens from the Enoque UI package and use them in your styles or components:
+
+```jsx
+import { fontWeights } from 'enoque-ui/tokens';
+
+const styles = {
+  boldText: {
+    fontWeight: fontWeights.bold,
+  },
+  regularText: {
+    fontWeight: fontWeights.regular,
+  },
+};
