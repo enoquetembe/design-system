@@ -16,7 +16,7 @@ export const Button = styled('button', {
   justifyContent: 'center',
   alignItems: 'center',
   gap: '$2',
-  padding: '0, $4',
+  padding: '0 $4',
 
   minWidth: 120,
   boxSizing: 'border-box',
