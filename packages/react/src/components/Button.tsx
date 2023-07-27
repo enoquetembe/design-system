@@ -44,8 +44,8 @@ export const Button = styled('button', {
         },
 
         '&:disabled:hover': {
-          //backgroundColor: '$gray200',
-          backgroundColor: '$blue500',
+          backgroundColor: '$gray200',
+          //backgroundColor: '$blue500',
         },
       },
 
