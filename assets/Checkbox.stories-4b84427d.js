@@ -1,0 +1,2 @@
+import{C as s}from"./index-c6614d55.js";import"./index-c0290abd.js";import"./_commonjsHelpers-725317a4.js";import"./extends-98964cd2.js";import"./jsx-runtime-5fc188ad.js";const d={title:"Form/Checkbox",tags:["autodocs"],component:s,args:{}},r={};var o,e,t;r.parameters={...r.parameters,docs:{...(o=r.parameters)==null?void 0:o.docs,source:{originalSource:"{}",...(t=(e=r.parameters)==null?void 0:e.docs)==null?void 0:t.source}}};const n=["Primary"];export{r as Primary,n as __namedExportsOrder,d as default};
+//# sourceMappingURL=Checkbox.stories-4b84427d.js.map
