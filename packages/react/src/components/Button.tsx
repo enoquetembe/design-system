@@ -47,6 +47,11 @@ export const Button = styled('button', {
           backgroundColor: '$gray200',
           //backgroundColor: '$blue500',
         },
+
+        '&:disabled': {
+          backgroundColor: '$gray200',
+          //backgroundColor: '$blue500',
+        },
       },
 
       secondary: {
